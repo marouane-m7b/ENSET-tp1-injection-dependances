@@ -4,6 +4,7 @@ import net.mahboub.dao.IDao;
 
 public class MetierImpl implements IMetier {
     private IDao dao; // Couplage Faible
+
     @Override
     public double calcul() {
         double t = dao.getData();
